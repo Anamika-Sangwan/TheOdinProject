@@ -3,9 +3,26 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>My First Website</title>
+        <title>Home Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Home Page</h1>
+        <!-- The href is the destination link and the target opens it in a new page, if it is not present then by default, 
+         it is marked as _self and it opens in the same webpage.
+         The noopener in the ref tag ensure that the new page cannot interact with the orignal page i.e its JS cannot change the original page
+         the noreferrer provides security and privacy, this ensures the page doesn't know where the user came from, it does the job of noopener too.-->
+        <p>
+            <a href="https://www.theodinproject.com/about" target="_blank" ref="noopener noreferrer">About The Odin Project</a>
+            <br>
+            (This is an Absolute Link)
+         </p>
+         <p>
+            <a href="./pages/HTML_1.html" target="_blank">Know about List, Paragraphs and HTML headings</a>
+            <br>
+            (This is an example of a relative link)
+         </p>
+         <p>
+            <a href="./pages/HTML_2.html" target="_blank">Know about images</a>
+         </p>
     </body>
-</html>
+</html> 
