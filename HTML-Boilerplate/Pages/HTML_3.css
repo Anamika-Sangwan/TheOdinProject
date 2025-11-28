@@ -1,0 +1,21 @@
+*{
+    text-align: center;
+    color: gray;
+}
+
+p{
+    background-color: orange;
+}
+
+div{
+    background-color: blue;
+}
+
+.class{
+    background-color: pink;
+}
+
+#identity{
+    background-color:aqua;
+}
+
