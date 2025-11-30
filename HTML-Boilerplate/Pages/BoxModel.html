@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-Box-Model</title>
+    <link rel="Stylesheet" href="BoxModel.css">
+</head>
+<!-- Margin is collapsable, so if box one has a margin of 50 and box two has 
+ a margin of 50x, then the space between them is not going to be 100px, its going 
+ to be 50px only. Now, if the margin of box 2 was changed from 50px to 60px, the space between 
+ box one and box two will be 60px only i.e margin of box two will increase by 10px -->
+
+ <!-- Border box sets the height and width to be what we want the box to be inclusive of the 
+  padding and border, otherwise the height and width are exclusive of the padding and the 
+  border. Note:- margin is not considered when counting the  box height and width-->
+<body>
+    <div class="one">
+        One
+    </div>
+    <div class="two">
+        Two
+    </div>
+</body>
+</html>
