@@ -1,0 +1,11 @@
+*{
+    text-align:center;
+}
+div{
+    background-color: aliceblue;
+}
+
+span{
+    background-color: pink;
+    margin: 2px;
+}
